@@ -1,20 +1,40 @@
-1.python flow --model cfg\yolo.cfg --load bin\yolov2.weights --demo street.mp4 --saveVideo --gpu 0.7
 
-2.python setup.py build_ext --inplace
 
-3.conda install opencv
 
-4.conda config --add channels conda-forge
+1. conda create -n darkflow
+
+2. conda activate darkflow
+
+3. conda install python==3.6.0
+
+4. pip install tensorflow-gpu==1.15.0
 
 5. conda install cython numpy
 
-6. pip install tensorflow-gpu==1.15.0
+6. conda config --add channels conda-forge (optional, sometimes needed)
 
-7. conda install python==3.6.0
+7. conda install opencv
 
-8. conda create -n darkflow
+8. cd darkflow-master (reach the directory of your file)
 
-9. conda activate darkflow
+9. python setup.py build_ext --inplace
+
+10. python part4_video.py (run the final python file for webcame)
+
+11. For Render video: python flow --model cfg\yolo.cfg --load bin\yolov2.weights --demo                       street.mp4 --    saveVideo --gpu 0.7
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
