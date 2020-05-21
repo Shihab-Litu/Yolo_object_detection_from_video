@@ -1,0 +1,38 @@
+# Revo uninstaller software install to remove previous cache
+
+# Anaconda3 5.2.0 (link- https://repo.anaconda.com/archive/)
+
+** Bcoz its install python 3.6. python 3.6 is more stable **
+
+#  conda install tensorflow-gpu= 1.13.1 keras= 2.2.4
+
+** conda dia install korle dependency soho install kore ney**
+
+
+# conda create -n shihab anaconda  
+
+**  last e anaconda lekhle environment er jonno ekta jupyter command prompt pawa jay**
+
+
+# pip install opencv-python==3.2.0.8
+
+** open cv pip die install dewa valo otherwise conda forge tensorflow gpu uninstall kore  dey**
+
+# tf.__version__
+
+** tensorflow version**
+
+
+
+
+# Below code are tested that tensorflow gpu is installed
+
+^^^^
+
+import tensorflow as tf
+if tf.test.gpu_device_name():
+    print('Default GPU Device: {}'.format(tf.test.gpu_device_name()))
+else:
+    print("Please install GPU version of TF")
+
+^^^^^
